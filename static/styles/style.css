@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    padding-bottom: 50px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a{
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.home__link{
+    color: #F25822;
+}
+.header__link{
+    color: black;
+}
+
+.top__content{
+    margin-top: 60px;
+    margin-bottom: 160px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.top__button {
+    margin-bottom: 50px;
+}
+
+.lower__logos{
+    margin-bottom: 1em;
+}
+
+
