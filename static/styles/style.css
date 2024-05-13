@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Gilroy ExtraBold;
+    src: url("../fonts/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+body {
+    font-family: Gilroy ExtraBold;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +17,18 @@
 }
 
 .navbar {
+    width: 1170px;
     display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
 }
 
 .nav-list {
     display: flex;
 }
 
-.nav-list a{
+.nav-list a {
     display: block;
     padding: 1em;
     text-decoration: none;
@@ -25,28 +38,49 @@
     background-color: rgb(70, 70, 70);
 }
 
-.home__link{
+.home__link {
     color: #F25822;
 }
-.header__link{
+
+.header__link {
     color: black;
 }
 
-.top__content{
+.top__content {
     margin-top: 60px;
     margin-bottom: 160px;
+    display: flex;
+    gap: 100px;
+}
+
+.top__info {
+    width: 522px;
 }
 
 .title {
+    font-size: 60px;
+    line-height: 70.31px;
+    text-align: left;
     margin-bottom: 20px;
 }
 
+.text {
+    color: #888888;
+    font-size: 21px;
+    line-height: 23.44px;
+    text-align: left;
+}
+
+
 .top__button {
     margin-bottom: 50px;
+    top: 16px;
+    border-radius: 50px 0px 0px 0px;   
 }
 
-.lower__logos{
+.lower__logos {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 1em;
 }
-
-
